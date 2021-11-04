@@ -1,0 +1,51 @@
+name: RPEssentials
+version: 1.0
+author: InTafiir
+main: net.finalbarrage.RPEssentials.RPEssentials
+api-version: 1.17
+commands:
+
+  Get:
+    description: "Used to spawn a RP Item"
+    usage: "/get [ Orb, Watch, Mailbox, Compass, Skull <PlayerName> ]"
+    aliases: [ Get, get ]
+
+  Settings:
+    description: "View the Chat Settings on a scoreboard"
+    usage: "/settings"
+    aliases: [ Settings, settings ]
+
+  Me:
+    description: "Allows another player to explain what their character is doing."
+    usage: "/me <Message>"
+    aliases: [ Me, me, M, m ]
+
+  Do:
+    description: "Allows a player to implicate another player's attention."
+    usage: "/do <Message>"
+    aliases: [ Do, do, D, d ]
+
+  It:
+    description: "A third-party narrative command to explain events in the world around you which neither you nor another player could've participated in."
+    usage: "/it <Message>"
+    aliases: [ It, it ]
+
+  Shout:
+    description: "Lets you yell over a greater distance than the standard talking distance."
+    usage: "/s <Message>"
+    aliases: [ Shout, shout, S, s, Yell, yell, Y, y ]
+
+  Whisper:
+    description: "Lets you whisper to a player close by."
+    usage: "/w <Message>"
+    aliases: [ Whisper, whisper, W, w ]
+
+  OutOfCharacter:
+    description: "Lets you talk to nearby players out of character."
+    usage: "/b <Message>"
+    aliases: [ OOC, ooc, B, b ]
+
+  PrivateMessage:
+    description: "Sends a private message to a specific player."
+    usage: "/pm <Message>"
+    aliases: [ PrivateMessage, PM, pm, Message, message, msg ]

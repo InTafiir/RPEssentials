@@ -1,0 +1,185 @@
+# Link to chat color codes/formatting: https://minecraft.fandom.com/wiki/Formatting_codes
+# Link to Java Regex Tester, so you can build your own emoji filters: https://www.freeformatter.com/java-regex-tester.html#ad-output
+
+SQL:
+  serverless: true
+  server:
+    host: address
+    port: port
+    user: username
+    pass: password
+
+
+
+# Login Modes = Strict, PseudoRP, Vanilla
+Login-System:
+  mode: "Vanilla"
+  Spawn-Point:
+    x: 0
+    y: 64
+    z: 0
+
+
+
+Items:
+
+  OrbOfCommunication:
+    toggle-item: true
+    toggle-description: true
+    craftable: true
+    id-length: 9
+    permissions:
+      - RPEssentials.Orb.Get
+      - RPEssentials.Orb.Use
+
+  PocketWatch:
+    toggle-item: true
+    toggle-description: true
+    craftable: true
+    permissions:
+      - RPEssentials.Watch.Get
+      - RPEssentials.Watch.Use
+
+  Compass:
+    toggle-item: true
+    toggle-description: true
+    craftable: true
+    permissions:
+      - RPEssentials.Compass.Get
+      - RPEssentials.Compass.Use
+
+  Mailbox:
+    toggle-item: true
+    toggle-description: true
+    permissions:
+      - RPEssentials.Mailbox.Get
+      - RPEssentials.Mailbox.Use
+      - RPEssentials.Mailbox.Place
+      - RPEssentials.Mailbox.Break
+
+  Skulls:
+    drop-on-death: false
+    permissions:
+      - RPEssentials.Skull.Get
+
+
+
+Chat:
+
+  Modules:
+    Filters:
+      Emoji: false
+      Profanity: false
+
+    Chatlogs:
+      Active: true
+      Format:
+        MessageInfo: "[ %tT ] | [ Channel: %s | Range: %.1f ] | [ sender: %s ] | [ Recipients: %s ]"
+        Message: "[ %tT ] | [ %s ]: %s"
+
+  Channels:
+    Global:
+      toggle-global: false
+      message-prefix: "§l[§6GLOBAL§f]:§r "
+      message-format: "§f"
+      permissions:
+        - RPEssentials.Global.Talk
+
+    Proximity:
+      outofrange: true
+      range: 10
+      sender-format: "[ §n%s§r ]: "
+      message-format: "§f"
+      permissions:
+        - RPEssentials.Proximity.Talk
+
+
+
+  Action:
+
+    Me:
+      range: 10
+      sender-format: "[ §n%s§r ]"
+      message-format: "[ §o§9Me§r ]: §7§o*"
+      permissions:
+        - RPEssentials.Command.Me
+
+    Do:
+      range: 10
+      sender-format: "[ §n%s§r ]"
+      message-format: "[ §o§1Do§r ]: §7§o*"
+      permissions:
+        - RPEssentials.Command.Do
+
+    It:
+      range: 10
+      sender-format: "[ §n%s§r ]"
+      message-format: "[ §o§aIt§r ]: §7§o*"
+      permissions:
+        - RPEssentials.Command.It
+
+    Shout:
+      range: 20
+      sender-format: "[ §n%s§r ]: "
+      message-format: "§l"
+      permissions:
+        - RPEssentials.Command.Shout
+
+    Whisper:
+      range: 2
+      sender-format: "[ §n%s§r ]: "
+      message-format: "§o"
+      permissions:
+        - RPEssentials.Command.Whisper
+
+    OutOfCharacter:
+      range: 5
+      sender-format: "[ §n%s§r ]: "
+      message-format: "§8"
+      permissions:
+        - RPEssentials.Command.OOC
+
+    PrivateMessage:
+      setting: Vanilla
+      range: 10
+      permissions:
+        - RPEssentials.Command.PM
+
+      OrbOfCommunication:
+        Sending:
+          message-prefix: "§f[ §bOrb §f] "
+          sender: "§f[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§b"
+        Receiving:
+          message-prefix: "§f[ §bOrb §f] "
+          sender: "[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§3"
+
+      Vanilla:
+        Sending:
+          message-prefix: "§f[ §bPM §f] "
+          sender: "§f[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§b"
+        Receiving:
+          message-prefix: "§f[ §bPM §f] "
+          sender: "[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§3"
+
+      PseudoRP:
+        Sending:
+          message-prefix: "§f[ §bPM §f] "
+          sender: "§f[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§b"
+        Receiving:
+          message-prefix: "§f[ §bPM §f] "
+          sender: "[ §b%s §f] "
+          suffix: "§b> §f[ §3%s §f]: "
+          message-format: "§3"
+
+      Off:
+        Failed-To-Send-Message: "Private Messaging is currently disabled on this server."

@@ -1,0 +1,91 @@
+
+--------- [Settlement Information] ---------
+
+Outpost:
+
+    Level:              Tier 1
+    Size:               3 Chunks * 3 Chunks
+    Max Members:        5 Players
+    Points-To-Upgrade:  10,000
+
+    Ranks:
+        Leader:         "Founder"   [x1 Player(s)]
+        Officer:        "Officer"   [x1 Player(s)]
+        Member:         "Campmate"  [x4 Player(s)]
+
+Hamlet:
+
+    Level:              Tier 2
+    Size:               5 Chunks * 5 Chunks
+    Max Members:        10 Players
+    Points-To-Upgrade:  20,000
+
+    Ranks:
+         Leader:        "Founder"   [x1 Player(s)]
+         Officer:       "Officer"   [x1 Player(s)]
+         Member:        "Villager"  [x9 Player(s)]
+
+Village:
+
+    Level:              Tier 3
+    Size:               7 Chunks * 7 Chunks
+    Max Members:        15 Players
+    Points-To-Upgrade:  40,000
+
+    Ranks:
+         Leader:        "Chief"     [x1 Player(s)]
+         Officer:       "Officer"   [x1 Player(s)]
+         Member:        "Villager"  [x14 Player(s)]
+
+Town:
+
+    Level:              Tier 4
+    Size:               9 Chunks * 9 Chunks
+    Max Members:        20 Players
+    Points-To-Upgrade:  80,000
+
+    Ranks:
+         Leader:        "Mayor"     [x1 Player(s)]
+         Officer:       "Manager"   [x1 Player(s)]
+         Member:        "Citizen"   [x19 Player(s)]
+
+City:
+
+    Level:              Tier 5
+    Size:               11 Chunks * 11 Chunks
+    Max Members:        25 Players
+    Points-To-Upgrade:  160,000
+
+    Ranks:
+         Leader:        "Mayor"     [x1 Player(s)]
+         Officer:       "Councilman"[x5 Player(s)]
+         Member:        "Citizen"   [x24 Player(s)]
+
+Metro:
+
+    Level:              Tier 6
+    Size:               13 Chunks * 13 Chunks
+    Max Members:        30 Players
+    Points-To-Upgrade:  320,000
+
+    Ranks:
+         Leader:        "Governor"  [x1 Player(s)]
+         Council:       "Councilman"[x5 Player(s)]
+         Member:        "Citizen"   [x29 Player(s)]
+
+--------- [Material Points Information] ---------
+
+* ONLY RAW MATERIALS
+
+Renewable Resources:
+    Wood:
+    Cobblestone:
+    Melons
+    Sugar Cane
+
+NonRenewable Resources:
+
+--------- [] ---------
+
+
+

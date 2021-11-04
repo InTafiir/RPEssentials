@@ -1,0 +1,19 @@
+Groups:
+  Member:
+    default: true
+    permissions:
+      - RPEssentials.Orb.Use
+      - RPEssentials.Watch.Use
+      - RPEssentials.Compass.Use
+      - RPEssentials.Mailbox.Use
+      - RPEssentials.Mailbox.Place
+      - RPEssentials.Mailbox.Break
+      - RPEssentials.Global.Talk
+      - RPEssentials.Proximity.Talk
+      - RPEssentials.Command.Me
+      - RPEssentials.Command.Do
+      - RPEssentials.Command.It
+      - RPEssentials.Command.Shout
+      - RPEssentials.Command.Whisper
+      - RPEssentials.Command.OOC
+      - RPEssentials.Command.PM

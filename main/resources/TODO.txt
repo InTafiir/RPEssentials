@@ -1,0 +1,80 @@
+[ CURRENT ]
+
+Chat:
+
+    Filter:
+        - Implement Filter for Profanity
+        - Implement Filter for Emojis
+
+    Logger:
+        - Create System to watch time and if clock hits 00:00:00, start a new chatlog with new date.
+
+
+
+Items:
+
+    Compass:
+        - Finish Compass Direction Tracking
+
+    Mailbox:
+        - Create Mail Sending System (Compose)
+        - Create Mail Receiving System
+        - Create interface for sent/received mail in mailbox.
+        - Fix: When placing mailbox against wall, SQL will not remove mailbox entry upon breaking.
+
+    Orb:
+        - Create commands for Orb: /add <Number>, /delete <Number>
+        - Add Contact Scroll System
+        - Create SQL storage for contacts
+        - Create contact heads with player skins and have it display: [Contact Name, Online/Offline Status, Orb #]
+        - Create /mindmeld (Phone call) system.
+        - Create /Scribe (SMS) system.
+
+
+
+Cooldowns:
+
+    - Create System to implement cooldowns for commands/actions.
+    - Allow cooldown toggles for items and chat messages.
+    - Give option whether cooldowns are stored and referenced in sql or stored in server memory.
+
+
+Player Cards:
+    - Cards that hold RP information for players.
+
+
+
+[ FUTURE ]
+
+NPCs:
+    -Implement NPCs into plugin.
+
+    Quest:
+        - Create ability for NPCs to give quests
+
+    Banker:
+        - Implement Banking Storage.
+        - Implement Banking Interface.
+
+
+
+Graves:
+    - Implement on player death a dead body of their character laying on the ground where they died.
+    - Allow player that died to right-click on body to retrieve their lost/dropped items.
+    - Allow other players to right-click on body to loot corpse.
+
+
+
+Report System:
+    - sql based report storage.
+        https://www.geeksforgeeks.org/parse-json-java/
+    - Variables: reportSender, reportAgainst, Timestamp of report, "Short Description".
+    - Build interface where if you're in a certain category, you can look at open reports.
+    - Allow for report claiming so multiple staff doesn't take on the same report.
+    - Allow for closing of report where it doesn't display in interface but stays stored in SQL.
+
+
+
+Language Learning System:
+    - Allow for players to create "new languages".
+    - Allow for either "Instant Learning" or "Visual Learning" (Maybe "Action Learning"?)

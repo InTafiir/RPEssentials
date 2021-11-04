@@ -1,0 +1,18 @@
+Minecraft Item IDs:
+https://minecraftitemids.com/
+
+Falling blocks:
+https://minecraft.fandom.com/wiki/Tutorials/Falling_blocks
+
+Command Generator:
+https://mcstacker.bimbimma.com/
+
+Particles:
+https://minecraft.fandom.com/wiki/Commands/particle
+
+Armorstand Creator:
+https://haselkern.com/Minecraft-ArmorStand/
+
+Structure Blocks:
+https://www.youtube.com/watch?v=sopvjM9PokQ
+
